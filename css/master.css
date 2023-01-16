@@ -1,0 +1,84 @@
+/* Main Stylesheet */
+
+
+header{
+    height: 120px;
+    background: #4ea0ff url("../img/pattern.png") repeat;
+    background-size: 25%;
+}
+
+header img{
+    max-width: 180px;
+    margin: 65px 0px 0px 10px;
+}
+
+
+/* Article */
+
+.article-title{
+    margin-bottom: 20px;
+}
+
+.article-source{
+    color: grey;
+}
+
+.article-source .small{
+    font-size: .8rem;
+}
+
+.article-title h1{
+    font-size: 2.5rem;
+    margin-bottom: 2px;
+}
+
+.article-source-link{
+    text-decoration: none;
+}
+
+.article-content ul{
+    margin: 30px auto 30px auto;
+}
+
+.photos-caption{
+    font-size: .9rem;
+}
+
+table{
+    width: 100%;
+}
+
+table thead{
+    background-color: #20a9e5;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: #b1e5f2;
+}
+
+/* Footer */
+
+footer h3{
+    color: gray;
+}
+
+#suggested-01{
+    background-image: url("../img/monitor.jpg");
+}
+
+#suggested-02{
+    background-image: url("../img/graph.jpg");
+}
+
+.suggested-article{
+    width: 250px;
+    height: 150px;
+}
+
+.suggested-article .item-title{
+    color: white;
+    font-size: 1.2rem;
+}
